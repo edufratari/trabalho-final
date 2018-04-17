@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    tools:context="unitri.edu.br.trabalhofinal.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="258dp"
+        android:layout_height="43dp"
+        android:text="Crie sua conta"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Informe o seu nome"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Informe seu e-mail"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Informe sua senha"
+        android:inputType="textPersonName"/>
+    <Button
+        android:id="@+id/btnCriarConta"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
+        android:text="Criar conta"/>
+
+</LinearLayout>
